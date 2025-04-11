@@ -1,0 +1,30 @@
+body {
+  background: rgb(90, 217, 179);
+}
+
+/* "z-index" contrôle l'empilement des boites */
+/* "transform" applique une rotation de la boite */
+/* "opacity" ajuste la transparence de la boite */
+
+
+.div1 {
+  position: absolute;
+  background: orange;
+  height: 100px;
+  width: 50%;
+  z-index: 1;
+  opacity: 0.6;
+}
+.div1:hover {
+  opacity: 1;
+}
+.div2 {
+  position: absolute;
+  top: -25px;
+  left: 30px;
+  background: maroon;
+  height: 200px;
+  z-index: 2;
+  width: 20%;
+  transform: skewY(20deg);
+}
